@@ -2,4 +2,4 @@
 ## Loja D AMORA
 Tudo em moda para valorizar o seu corpo e seu bem estar.
 
-## Em contrução
+## Em construção
