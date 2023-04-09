@@ -1,14 +1,11 @@
 import styled from 'styled-components';
+
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin:0 auto;
+  text-align: center;
+  margin:auto;
   width:80vw;
-  height:70vh;
-`;
-
-export const Carrossel = styled.div`
-  height: 20rem;
-  width: 100%;
-  border: 1px solid #a55c;
+  height:80vh;
 `;

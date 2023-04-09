@@ -1,6 +1,16 @@
+import * as C from './style';
+import {useState} from 'react';
 
 export const Main = () => {
+  const [image, setImage] = useState([]);
+
+
+
+
+
   return (
-    <div><h1>Main</h1></div>
+    <C.Container>
+      <C.Carrossel>Carrossel</C.Carrossel>
+    </C.Container>
   )
 }

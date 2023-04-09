@@ -1,12 +1,13 @@
-
+import { Link } from 'react-router-dom'
+import * as C from './style'
 export const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
+    <C.Container>
+      <h1>Logo</h1>
       <ul>
-        <li>Home</li>
-        <li>Contato</li>
+        <Link to="/">Home</Link>
+        <Link to="contato">Contato</Link>
       </ul>
-      </div>
+      </C.Container>
   )
 }
