@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import * as C from './style';
-import { ImHome, ImTruck, ImBubble2, ImInstagram,ImFacebook2, ImWhatsapp } from 'react-icons/im';
+import { ImHome, ImTruck, ImBubble2, ImInstagram, ImFacebook2, ImWhatsapp } from 'react-icons/im';
 
 export const Footer = () => {
   return (
@@ -12,10 +13,12 @@ export const Footer = () => {
         <ImTruck />
         <p>Receba no conforto <br /> da sua casa</p>
       </div>
-      <div>
-        <ImBubble2 />
-        <p>Tire suas dúvidas <br /> e fale conosco</p>
-      </div>
+      <C.Duvidas>
+        <Link to="contato">
+          <ImBubble2 />
+          <p>Tire suas dúvidas <br /> e fale conosco</p>
+        </Link>
+      </C.Duvidas>
       <div>
         <h5>Perguntas frequentes</h5>
         <p>Politíca de Privacidade</p>
@@ -27,13 +30,13 @@ export const Footer = () => {
       <div>
         <h5><span>D Amore </span>nas Redes Sociais</h5>
         <a href="#">
-        <ImInstagram />
+          <ImInstagram />
         </a>
         <a href="#">
-        <ImFacebook2 />
+          <ImFacebook2 />
         </a>
         <a href="#">
-        <ImWhatsapp />
+          <ImWhatsapp />
         </a>
       </div>
     </C.Container>
