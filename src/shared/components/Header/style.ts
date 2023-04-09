@@ -2,7 +2,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display:flex;
   justify-content: space-between;
-  margin: 1rem 3rem;
+  margin: 2rem 3rem;
   padding: 0 7rem;
   border-bottom: 1px solid #fff0ff;
   ul {
