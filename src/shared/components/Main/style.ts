@@ -26,6 +26,10 @@ export const Modelos = styled.div`
     border:1px solid #a55c;
     margin:auto;
   }
+  @media (max-width: 500px) {
+    flex-direction: column;
+    width:100%;
+  }
 `;
 
 export const Ultma = styled.div`

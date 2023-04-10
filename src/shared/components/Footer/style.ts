@@ -20,6 +20,7 @@ export const Container = styled.div`
         margin:0.3rem;
       }
     }
+
     &:last-child {
     margin-left: 20rem;
     svg {
@@ -37,6 +38,30 @@ export const Container = styled.div`
     }
   }
   }
+  @media (max-width: 500px) {
+    flex-direction: column;
+    div {
+      margin:0.6rem;
+      &:nth-last-child(-n+2) {
+        p {
+          font-size: 0.8rem;
+          margin:0.3rem;
+        }
+      }
+  
+      &:last-child {
+      margin:1rem;
+      svg {
+        transition: 0.5s;
+        margin:0 0.5rem;
+        color:#ccc;
+        &:hover {
+          color:#fff;
+        }
+      }
+    }
+    }
+}
 `;
 
 export const Duvidas = styled.div`

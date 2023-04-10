@@ -21,4 +21,16 @@ export const Container = styled.div`
       }
     }
   }
+  @media (max-width: 500px) {
+    padding:auto;
+    margin:1rem 0.2rem;
+    flex-direction: column;
+    h1 {
+      margin:0 auto;
+    }
+    ul {
+      margin:0 auto;
+    }
+  }
+  
 `;
